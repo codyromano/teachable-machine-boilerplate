@@ -4,10 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Teachable Machine Boilerplate</title>
-
-    <script src="dist/build.js"></script>
+    <title>Dancing Classifier</title>
+    <style>
+    body {
+      padding: 0.2rem;
+      font-family: Helvetica;
+      font-size: 0.9rem;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      font-size: 1.2rem;
+    }
+    </style>
 </head>
 <body>
+  <div>
+    <h1>Play music when bad dancing is detected</h1>
+  <audio class="music" src="https://s3-us-west-2.amazonaws.com/codyromano/neural-net-dancing/stir-fry-migos.mp3"
+    controls></audio>
+  </div>
+      <script src="dist/build.js"></script>
 </body>
 </html>
