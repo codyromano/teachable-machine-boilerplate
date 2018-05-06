@@ -43,13 +43,13 @@ class Main {
     this.classMetadata = {
       0: {
         id: 'dancing',
-        label: 'Start Dancing',
-        undoLabel: 'Stop Dancing'
+        label: 'Capture Dog Examples',
+        undoLabel: 'Stop Capturing'
       },
       1: {
         id: 'notDancing',
-        label: 'Start Walking Normally',
-        undoLabel: 'Stop Walking'
+        label: 'Capture Not Dog Examples',
+        undoLabel: 'Stop Capturing'
       }
     };
 
